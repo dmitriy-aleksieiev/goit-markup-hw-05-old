@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+    <!-- Fonts Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts End -->
 
-  <!-- Fonts Start -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <!-- Fonts End -->
+    <!-- Modern-normalize Start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <!-- Modern-normalize End -->
 
-  <!-- Modern-normalize Start -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-  <!-- Modern-normalize End -->
-
-  <!-- Custom style Start -->
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- Custom style End -->
-</head>
-
+    <!-- Custom style Start -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Custom style End -->
+  </head>
+  <body>
     <!-- Header Section -->
     <header class="header">
       <div class="container header-container">
@@ -63,92 +67,185 @@
       </div>
     </header>
 
-<!-- Main Section -->
-<main>
+    <!-- Main Section -->
+    <main>
+      <section class="portfolio section">
+        <div class="container">
+          <h2 class="visually-hidden">Портфолио</h2>
 
-  <section class="portfolio section">
-<div class="container">
-    <h2 class="visually-hidden">Портфолио</h2>
+          <ul class="portfolio-btn-list">
+            <li>
+              <button class="portfolio-button portfolio-button-current" type="button">Все</button>
+            </li>
+            <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
+            <li><button class="portfolio-button" type="button">Приложения</button></li>
+            <li><button class="portfolio-button" type="button">Дизайн</button></li>
+            <li><button class="portfolio-button" type="button">Маркетинг</button></li>
+          </ul>
 
-    <ul class="portfolio-btn-list">
-      <li><button class="portfolio-button portfolio-button-current" type="button">Все</button></li>
-      <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
-      <li><button class="portfolio-button" type="button">Приложения</button></li>
-      <li><button class="portfolio-button" type="button">Дизайн</button></li>
-        <li><button class="portfolio-button" type="button">Маркетинг</button></li>
-    </ul>
+          <ul class="portfolio-list">
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-1.jpg"
+                alt="Визуализация веб-сайта Технокряк на МакБуке"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Технокряк</h3>
+                <p class="description16">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-2.jpg"
+                alt="Постер баскетбольного матча"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Постер <span lang="en">Orlean vs Golden Star</span></h3>
+                <p class="description16">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-3.jpg"
+                alt="Логотип ресторана Seafood"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Ресторан <span lang="en">Seafood</span></h3>
+                <p class="description16">Приложение</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img src="images/portfolio-4.jpg" alt="Наушники" width="370" height="294" />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Проект <span lang="en">Prime</span></h3>
+                <p class="description16">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-5.jpg"
+                alt="МокАп упаковки Boxes"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Проект <span lang="en">Boxes</span></h3>
+                <p class="description16">Приложение</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-6.jpg"
+                alt="Визуализация веб-сайта Inspiration"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18"><span lang="en">Inspiration has no Borders</span></h3>
+                <p class="description16">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img src="images/portfolio-7.jpg" alt="Разворот журнала" width="370" height="294" />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Издание <span lang="en">Limited Edition</span></h3>
+                <p class="description16">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img src="images/portfolio-8.jpg" alt="МокАп бирки" width="370" height="294" />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18">Проект <span lang="en">LAB</span></h3>
+                <p class="description16">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <div class="portfolio-card-overlay">
+                <p class="portfolio-card-text">
+                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                  лице.
+                </p>
+              </div>
+              <img
+                src="images/portfolio-9.jpg"
+                alt="Визуализация приложения Growing Business на экране ноутбука"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-item-block">
+                <h3 class="title-h3-18"><span lang="en">Growing Business</span></h3>
+                <p class="description16">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-    <ul class="portfolio-list">
-      <li class="portfolio-card">
-        <img src="images/portfolio-1.jpg" alt="Визуализация веб-сайта Технокряк на МакБуке" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Технокряк</h3>
-        <p class="description16">Веб-сайт</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-2.jpg" alt="Постер баскетбольного матча" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Постер <span lang="en">Orlean vs Golden Star</span></h3>
-        <p class="description16">Дизайн</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-3.jpg" alt="Логотип ресторана Seafood" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Ресторан <span lang="en">Seafood</span></h3>
-        <p class="description16">Приложение</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-4.jpg" alt="Наушники" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Проект <span lang="en">Prime</span></h3>
-        <p class="description16">Маркетинг</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-5.jpg" alt="МокАп упаковки Boxes" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Проект <span lang="en">Boxes</span></h3>
-        <p class="description16">Приложение</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-6.jpg" alt="Визуализация веб-сайта Inspiration" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18"><span lang="en">Inspiration has no Borders</span></h3>
-        <p class="description16">Веб-сайт</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-7.jpg" alt="Разворот журнала" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Издание <span lang="en">Limited Edition</span></h3>
-        <p class="description16">Дизайн</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-8.jpg" alt="МокАп бирки" width="370" height="294">
-        <div class="portfolio-item-block">
-          <h3 class="title-h3-18">Проект <span lang="en">LAB</span></h3>
-        <p class="description16">Маркетинг</p>
-        </div>
-      </li>
-      <li class="portfolio-card">
-        <img src="images/portfolio-9.jpg" alt="Визуализация приложения Growing Business на экране ноутбука" width="370"
-          height="294">
-          <div class="portfolio-item-block">
-             <h3 class="title-h3-18"><span lang="en">Growing Business</span></h3>
-        <p class="description16">Приложение</p>
-        </div>
-      </li>
-    </ul>
-    </div>
-  </section>
-</main>
-
-<!-- Footer -->
+    <!-- Footer -->
 
     <footer class="footer">
       <div class="container footer-container">
@@ -232,6 +329,5 @@
         </div>
       </div>
     </footer>
-</body>
-
+  </body>
 </html>
