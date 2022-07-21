@@ -19,7 +19,7 @@
 /* BG Colors */
 .hero {
   max-width: 1600px;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   background-color: var(--bg-dark-gray-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -371,7 +371,7 @@ img {
 
 /* DOING */
 .doing-item {
-position: relative;
+  position: relative;
 }
 
 /* .doing-item:hover .doing-item-shield {
@@ -380,21 +380,20 @@ position: relative;
 
 .doing-item-shield {
   position: absolute;
-width: 100%;
-bottom: 0px;
-background: rgba(47, 48, 58, 0.8);
-padding: 27px 0px;
-
+  width: 100%;
+  bottom: 0px;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 0px;
 }
 
 .doing-item-text {
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main_white-color)
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main_white-color);
 }
 
 /* DESCRIPTION */
@@ -505,17 +504,11 @@ color: var(--main_white-color)
 
 .portfolio-card-text {
   font-weight: 400;
-font-size: 18px;
-line-height: 1.56;
-letter-spacing: 0.03em;
-color:var(--main_white-color);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--main_white-color);
 }
-
-
-
-
-
-
 
 .address {
   margin-top: 20px;
@@ -605,7 +598,6 @@ color:var(--main_white-color);
   flex-basis: 270px;
 }
 
-
 .peculiarities-wrap {
   height: 120px;
   display: flex;
@@ -672,4 +664,44 @@ color:var(--main_white-color);
 
 .fsm-icon {
   fill: currentColor;
+}
+
+/* МОДАЛЬНОЕ ОКНО */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* .backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+} */
+
+.modal {
+  min-width: 528px;
+  min-height: 581px;
+  background-color: var(--main_white-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+
+}
+
+.button-x {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--main_white-color);
+  width: 30px;
+height: 30px;
+position: absolute;
+top: 8px;
+right: 8px;
 }
