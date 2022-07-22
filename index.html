@@ -29,7 +29,7 @@
     <!-- CONTROL: 20 july 9:00  -->
   </head>
 
-  <body>
+  <body data-page>
     <!-- Header Section -->
     <header class="header">
       <div class="container header-container">
@@ -79,7 +79,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -558,9 +558,15 @@
 
 <!-- МОДАЛЬНОЕ ОКНО -->
 
-<div class="backdrop is-hidden">
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
-<button class="button-x" type="button">x</button>
+<button class="button-x" type="button" data-modal-close>
+
+  <svg class="" width="11" height="11">
+    <use href="./images/icons.svg#icon-icon-close"></use>
+  </svg>
+
+</button>
   </div>
 </div>
 
