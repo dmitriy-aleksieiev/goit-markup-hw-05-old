@@ -438,6 +438,9 @@ img {
   cursor: pointer;
   padding: 6px 22px;
   border-radius: 4px;
+  transition: color var(--anim-fast), 
+  background-color var(--anim-fast), 
+  box-shadow var(--anim-fast); 
 }
 
 .portfolio-button:hover,
@@ -517,9 +520,7 @@ img {
   color: var(--main_white-color);
 }
 
-
 /* ------------------------------------- */
-
 
 .address {
   margin-top: 20px;
@@ -542,7 +543,7 @@ img {
   color: var(--icons-color);
   background-color: #ffffff;
   border-radius: 50%;
-  transition: color var(--anim-fast), border var(--anim-fast);
+  transition: color var(--anim-fast), background-color var(--anim-fast);
 }
 
 .socials-link:hover,
@@ -706,5 +707,3 @@ img {
   right: 8px;
   cursor: pointer;
 }
-
-
