@@ -399,7 +399,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--description-color);
-  margin-bottom: 16px;
+
 }
 
 /* Button */
@@ -503,19 +503,14 @@ transition: box-shadow var(--anim-fast);
   overflow: hidden;
 }
 
-/* .portfolio-card:hover .portfolio-card-overlay {
-  opacity: 1;
-} */
-
 .portfolio-card-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(100%);
+  transform: translateY(101%);
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
-  /* opacity: 0; */
   padding: 63px 24px;
   transition: 500ms ease-in-out;
 }
@@ -631,6 +626,7 @@ transition: box-shadow var(--anim-fast);
 .footer-container {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 .fsm-text {
